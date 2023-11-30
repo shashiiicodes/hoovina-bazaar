@@ -10,7 +10,7 @@ from sklearn.linear_model import LinearRegression
 from datetime import datetime
 
 # Constants
-FILE_PATH = 'C:/Users/Shashank/Desktop/Pre-thesis/A3/Data/Flower_rose.csv'
+FILE_PATH = "./Flower.csv"
 
 
 # Get current day of the week and time for prediction

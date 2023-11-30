@@ -17,7 +17,7 @@ pred_price = 0
 image_link = 'https://static.vecteezy.com/system/resources/previews/012/954/861/original/traditional-indian-flower-garland-frame-with-marigold-flowers-decoration-for-indian-hindu-holidays-illustration-isolated-on-white-background-vector.jpg'
 
 # Constants
-FILE_PATH = r'C:\Users\Shashank\Desktop\Pre-thesis\A3\Data\Flower_rose.csv'
+FILE_PATH = "./Flower.csv"
 
 # Read data from CSV file into a Pandas DataFrame and drop the rows with NaN values
 df = pd.read_csv(FILE_PATH)
